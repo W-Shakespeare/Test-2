@@ -1,0 +1,26 @@
+.status {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  padding: 4px 12px;
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &--active {
+    color: #008767;
+    background: rgba(22, 192, 152, 0.38);
+    border: 1px solid #00b087;
+    border-radius: 4px;
+  }
+  &--inactive {
+    color: #df0404;
+    background: #ffc5c5;
+    border: 1px solid #df0404;
+    border-radius: 4px;
+  }
+}

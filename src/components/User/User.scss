@@ -1,0 +1,50 @@
+.user {
+  position: absolute;
+  bottom: 76px;
+  left: 28px;
+  display: flex;
+  max-width: 155px;
+  width: 100%;
+  min-height: 52px;
+  justify-content: center;
+  align-items: center;
+  z-index: 1100;
+  img {
+    width: 42px;
+    height: 42px;
+  }
+  &-content {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  &-name {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+  &-role {
+    width: 100%;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #757575;
+  }
+}
+
+.user-mobile {
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  align-items: flex-start;
+  height: 52px;
+}

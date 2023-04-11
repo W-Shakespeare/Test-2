@@ -1,0 +1,31 @@
+@import "./normalize.scss";
+@import "./fonts.scss";
+
+html,
+body {
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
+}
+
+.page {
+  padding: 41px 95px 41px 71px;
+  width: 100%;
+  min-height: 100%;
+  background-color: #f8fafe;
+
+  @media (max-width: 1024px) {
+    padding: 150px 15px 41px 15px;
+  }
+
+  @media (max-width: 560px) {
+    padding: 100px 0px 40px 0px;
+  }
+}
